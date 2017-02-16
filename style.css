@@ -1,0 +1,115 @@
+h2 {
+  padding-top: rem;
+}
+h3 {
+  padding-top: 1rem;
+}
+ul {
+  padding-left: 1rem;
+  margin-top: -12px;
+}
+
+#footer {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  border-top: 1px solid;
+}
+.navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.navbar-nav {
+  padding-top: 2rem;
+}
+.sub-link {
+  margin-left: 2rem;
+}
+.top-banner {
+  height: 6rem;
+  margin-top: 5.3rem;
+  background: #419D78;
+}
+.intro-content {
+  padding-top: 3rem;
+}
+.links-section {
+  padding-top: 1.5rem;
+}
+.section-banner-air {
+  height: 4rem;
+  background: #F4BE53;
+}
+.section-banner-fire {
+  height: 4rem;
+  background: #C61700;
+}
+.section-banner-earth {
+  height: 4rem;
+  background: #0B6E4F;
+}
+.section-banner-water {
+  height: 4rem;
+  background: #065A82;
+}
+.anchor {
+  padding-top: 4rem;
+}
+
+.inline-seasons {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+ 
+}
+.air {
+    background: #F4BE53;
+    width: 25%;
+  height: 1rem;
+}
+.fire {
+   background: #C61700;
+    width: 25%;
+    height: 1rem;
+
+}
+.earth {
+   background: #0B6E4F;
+    width: 25%;
+    height: 1rem;
+
+ 
+}
+.water {
+   background: #065A82;
+   width: 25%;
+    height: 1rem;
+
+}
+
+.map {
+ margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .season-schedule {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 578px){
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (max-width: 440px){
+  .map > iframe {
+    width: 100%;
+ 
+  }
+}
