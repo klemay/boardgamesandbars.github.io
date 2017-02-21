@@ -115,7 +115,12 @@ ul {
     width: 100%;
   }
   .navbar-toggler {
-    margin-right: -3.5rem;
+    position: fixed;
+    margin-right: .1rem;
   }
+    .navbar-brand {
+      margin-left: 2.5rem;
+  }
+  
 }
 
