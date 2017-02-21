@@ -118,7 +118,7 @@ ul {
     margin-right: -3.5rem;
   }
 }
-@media (max-width: 360px){
+@media (max-width: 375px){
 
   .navbar-toggler {
     margin-right: -120px;
