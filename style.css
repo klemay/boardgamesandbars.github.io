@@ -118,13 +118,4 @@ ul {
     margin-right: -3.5rem;
   }
 }
-@media (max-width: 375px){
 
-  .navbar-toggler {
-    margin-right: -120px;
-  }
-  .navbar-brand {
-    font-size: 1rem;
-    margin-left: -120px;
-  }
-}
