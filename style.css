@@ -33,6 +33,9 @@ ul {
 .intro-content {
   padding-top: 3rem;
 }
+.done {
+  text-decoration: line-through;
+}
 .links-section {
   padding-top: 1.5rem;
 }
