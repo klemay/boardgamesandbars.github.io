@@ -1,20 +1,60 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #249991;
+  color: #F0F1F5;
+  font-size: 18px;
+}
+header {
+  padding-top: 2rem;
+}
 h2 {
-  padding-top: rem;
+  font-size: 2.5rem;
+  padding-bottom: .5rem;
 }
-h3 {
-  padding-top: 1rem;
+
+a {
+  color: #112233;
+  text-decoration: underline;
 }
+a:hover {
+  color: #F0F1F5;
+}
+
 ul {
   padding-left: 1rem;
   margin-top: -12px;
 }
-
-#footer {
-  margin-top: 2rem;
-  padding-top: 2rem;
-  padding-bottom: .5rem;
-  border-top: 1px solid;
+i {
+  margin-right: 8px;
+  color: #112233;
 }
+.list-unstyled > li > a {
+  color: #F0F1F5;
+  text-decoration: none;
+  font-size: 18px;
+}
+.list-unstyled > li > a:hover {
+  color: #112233;
+}
+.page-title {
+ color: #F0F1F5;
+ font-size: 1.5rem;
+ text-decoration: none;
+}
+.page-title:hover {
+  text-decoration: none;
+  color: #F0F1F5;
+}
+
+footer {
+  margin-bottom: 0;
+}
+footer, ul {
+  margin-bottom: 8px;
+}
+
 .navbar {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -25,73 +65,26 @@ ul {
 .sub-link {
   margin-left: 2rem;
 }
-.top-banner {
-  height: 6rem;
-  margin-top: 5.3rem;
-  background: #419D78;
+
+.credits {
+  text-align: center;
 }
-.intro-content {
-  padding-top: 3rem;
+.small {
+  margin-bottom: 0;
 }
-.done {
-  text-decoration: line-through;
+
+.hero-content {
+  padding-bottom: 12rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  min-height: auto;
 }
-.links-section {
-  padding-top: 1.5rem;
+.fa-2x {
+  vertical-align: middle;
 }
-.section-banner-air {
-  height: 4rem;
-  background: #F4BE53;
-}
-.section-banner-fire {
-  height: 4rem;
-  background: #C61700;
-}
-.section-banner-earth {
-  height: 4rem;
-  background: #0B6E4F;
-}
-.section-banner-water {
-  height: 4rem;
-  background: #065A82;
-}
+
 .anchor {
   padding-top: 4rem;
-}
-
-.inline-seasons {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
- 
-}
-.air {
-    background: #F4BE53;
-    width: 25%;
-  height: 1rem;
-}
-.fire {
-   background: #C61700;
-    width: 25%;
-    height: 1rem;
-
-}
-.earth {
-   background: #0B6E4F;
-    width: 25%;
-    height: 1rem;
-
- 
-}
-.water {
-   background: #065A82;
-   width: 25%;
-    height: 1rem;
-
-}
-
-.map {
- margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 1200px) {
@@ -99,31 +92,38 @@ ul {
     padding-left: 15%;
     padding-right: 15%;
   }
-  .season-schedule {
-    padding-left: 5%;
+
+}
+@media (max-width: 768px){
+   .action-buttons {
+    margin-top: 2rem;
+    margin-left: -1.5rem;
+    
+  }
+
+  .hero-content {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 }
-
 @media (max-width: 578px){
   .container {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .navbar-toggler {
-    margin-right: -5rem;
+  .action-buttons {
+    margin-top: 1.5rem;
+    margin-left: -1.5rem;
+    
   }
+
+  .hero-content {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
 }
 @media (max-width: 440px){
-  .map > iframe {
-    width: 100%;
-  }
-  .navbar-toggler {
-    position: fixed;
-    margin-right: .1rem;
-  }
-    .navbar-brand {
-      margin-left: 2.5rem;
-  }
-  
-}
 
+
+}
